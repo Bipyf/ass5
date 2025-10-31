@@ -13,7 +13,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/Bipyf/ass5.git'
+        checkout scm
       }
     }
 
